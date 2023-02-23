@@ -48,3 +48,45 @@ header{
         }
     }
 }
+
+/*! jumbotron*/
+.jumbo-wrapper{
+    min-height: 500px;
+    background-image: url(/img/jumbotron.jpg);
+    background-position: top center;
+}
+
+
+/*bottom jumbo */
+.bottom-main-wrapper{
+    height: 450px;
+    background-image: url(./img/footer-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        .list-wrapper{
+            display: flex;
+            ul{
+                margin: 0 20px;
+                height: fit-content;
+            }
+            h2{
+                color: white;
+                margin-bottom: 0.9rem;
+            }
+            li{
+                color : rgb(161, 161, 161);
+                font-size: 0.8rem;
+            }
+        }
+        .img-wrapper{
+            height: 450px;
+        }
+        img{
+            max-height: 100%;
+        }
+    }
+}

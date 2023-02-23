@@ -37,5 +37,64 @@
             </div>
         </div>
     </header>
+    <section class="jumbotron">
+        <div class="jumbo-wrapper"></div>
+    </section>
+    @yield('content')
+    <section>
+        <div class="bottom-main-wrapper">
+            <div class="container">
+                <div class="list-wrapper">
+                    <ul>  
+                        <h2>Titolo 1</h2>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+
+                    </ul>
+                    <ul>  
+                        <h2>Titolo 2</h2>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+
+                    </ul>
+                    <ul>  
+                        <h2>Titolo 3</h2>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+
+                    </ul>
+                    <ul>  
+                        <h2>Titolo 4</h2>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+
+                    </ul>
+                </div>
+                <div class="img-wrapper">
+                    <img src="./img/dc-logo-bg.png" alt="big dc logo">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
