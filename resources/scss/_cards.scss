@@ -38,3 +38,25 @@
      }
     }
 }
+.divider{
+    height: 150px;
+    background-color: $main-blue;
+    .container{
+        display: flex;
+        .col{
+            display: flex;
+            flex-basis: calc(100% / 5);
+            height: 100%;
+            align-items: center;
+            .img-wrapper{
+                height: 50px;
+                width: 50px;
+            }
+            p{
+                color: white;
+                font-weight: bold;
+                margin: 0 10px;
+            }
+        }
+    }
+}
