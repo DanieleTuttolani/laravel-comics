@@ -90,3 +90,39 @@ header{
         }
     }
 }
+/* footer social links*/
+footer{
+    background-color: #303030;
+    height: 180px;
+    .footer-wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 75px;
+        .left{
+            a{
+                border: 2px solid $main-blue;
+                color: white;
+                padding: 20px;
+                &:hover{
+                    border-color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+        .right{
+            display: flex;
+            h2{
+                color: $main-blue;
+                margin: 0 0.5rem;
+                &:hover{
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+            img{
+                margin: 0 0.5rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -40,7 +40,10 @@
     <section class="jumbotron">
         <div class="jumbo-wrapper"></div>
     </section>
+    
+    {{-- here variable content  --}}
     @yield('content')
+
     <section>
         <div class="bottom-main-wrapper">
             <div class="container">
@@ -96,5 +99,23 @@
             </div>
         </div>
     </section>
+    <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="left">
+                        <a href="#"> SING UP NOW! </a>
+                    </div>
+                    <div class="right">
+                        <H2>FOLLOW US</H2>
+                        <img src="./img/footer-facebook.png" alt="facebook dc">
+                        <img src="./img/footer-periscope.png" alt="periscope dc">
+                        <img src="./img/footer-pinterest.png" alt="pinterest dc">
+                        <img src="./img/footer-twitter.png" alt="twitter dc">
+                        <img src="./img/footer-youtube.png" alt="youtube dc">
+    
+                    </div>
+                </div>
+            </div>
+    </footer>
 </body>
 </html>
