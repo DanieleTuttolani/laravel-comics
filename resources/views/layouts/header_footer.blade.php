@@ -1,3 +1,7 @@
+@php
+ $nav_links = config('navLinks')   
+@endphp
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,15 +19,19 @@
             <div class="container">
                 <nav>
                     <div class="main-nav-logo">
-                        <img src="./img/dc-logo.png" alt="dc logo">
+                        <img src="/img/dc-logo.png" alt="dc logo">
                     </div>
                     <div class="nav-list">
                         <ul>
+                            @foreach ($nav_links as $nav_link)
                             <li >
-                                <a href=""></a>
+                                <a href="{{$nav_link['link']}}" >{{$nav_link['name']}}</a>
                             </li>
-                            
+                            @endforeach
                         </ul>
+                        <div class="input-wrapper">
+                            <input type="text" placeholder="Cerca">
+                        </div>
                     </div>
                 </nav>
             </div>

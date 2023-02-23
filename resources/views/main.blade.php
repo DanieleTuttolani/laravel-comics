@@ -1,1 +1,4 @@
-@extends('layouts.header_footer')
+
+
+@extends('layouts.header_footer');
+
