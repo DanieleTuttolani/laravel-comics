@@ -1,7 +1,6 @@
 @php
  $nav_links = config('navLinks')   
 @endphp
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
